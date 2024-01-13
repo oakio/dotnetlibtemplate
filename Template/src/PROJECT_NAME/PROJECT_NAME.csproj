@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Ilya Dubadenko</Authors>
+    <Description>PROJECT_NAME</Description>
+    <Copyright>Copyright (c) NOW_YEAR</Copyright>
+    <PackageId>PROJECT_NAME</PackageId>
+    <PackageTags></PackageTags>
+    <PackageProjectUrl>https://github.com/oakio/project_name</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/oakio/project_name</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <AssemblyName>PROJECT_NAME</AssemblyName>
+    <RootNamespace>PROJECT_NAME</RootNamespace>
+    <NoWarn>7035;1591</NoWarn>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Codestellation.Cepheid" Version="0.1.6" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

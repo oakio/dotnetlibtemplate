@@ -1,0 +1,29 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Ilya Dubadenko",
+    "classifications": [ "Library" ],
+    "identity": "PROJECT_NAME",
+    "name": "Oakio library template",
+    "shortName": "oakiolib",
+    "sourceName":"PROJECT_NAME",
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    },
+    "preferNameDirectory": true,
+    "guids": [
+      "FC09C986-5B8E-41E2-845C-7A6DD3FDEA47",
+      "A8527F48-DC95-4E9A-BE93-AF9AB6F8A4F9",      
+      "D1B7389C-8B2E-4C45-8DDC-BF1F8B37C591"
+    ],
+    "symbols":{
+      "nowYear": {
+        "type": "generated",
+        "generator": "now",
+        "parameters": {
+        "format": "yyyy"
+        },
+        "replaces":"NOW_YEAR"
+      }
+    }
+  }
